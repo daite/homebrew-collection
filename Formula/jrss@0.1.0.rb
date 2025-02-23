@@ -1,8 +1,8 @@
 class Jrss < Formula
     desc "A tool to handle RSS feeds"
     homepage "https://github.com/daite/jrss"
-    url "https://github.com/daite/jrss/archive/refs/tags/v0.1.1.tar.gz"
-    sha256 "968a67fc27cd6900b4c8d078fbeba900d1ffc5c343a031a8dfdeecd4211c0790" # Replace with the actual SHA256 checksum
+    url "https://github.com/daite/jrss/archive/refs/tags/v0.1.0.tar.gz"
+    sha256 "c11373246191e9c1b782f5551b9af59f399cde3066a4aceb49b0b4de53ea3997" # Replace with the actual SHA256 checksum
     license "MIT"
   
     depends_on "go" => :build
@@ -11,4 +11,5 @@ class Jrss < Formula
       # Build the Go binary
       system "go", "build", "-o", bin/"jrss", "./cmd/jrss"
     end
+
 end  
