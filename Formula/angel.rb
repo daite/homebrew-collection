@@ -1,4 +1,4 @@
-class AngelAT080 < Formula
+class Angel < Formula
     desc "simple CLI for searching torrent magnet!"
     homepage "https://github.com/daite/angel"
     url "https://github.com/daite/angel/archive/refs/tags/v0.9.0.tar.gz" # Replace with your local or remote URL
