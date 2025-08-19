@@ -1,4 +1,4 @@
-class Jrss < Formula
+class JrssAT012 < Formula
     desc "A tool to handle RSS feeds"
     homepage "https://github.com/daite/jrss"
     url "https://github.com/daite/jrss/archive/refs/tags/v0.1.2.tar.gz"
